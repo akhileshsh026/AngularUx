@@ -1,17 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
-import { TopNavComponent } from './Component/top-nav/top-nav.component';
-import { DownNavComponent } from './MyComponents/down-nav/down-nav.component';
-import { MyComponentsComponent } from './my-components/my-components.component';
+import { MyComponentsComponent } from "./my-components/my-components.component";
+import { TopNavComponent } from "./my-components/top-nav/top-nav.component";
+import { HeadersComponent } from './my-components/headers/headers.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent , 
+    MyComponentsComponent ,
     TopNavComponent,
-    DownNavComponent,
-    MyComponentsComponent
+    HeadersComponent
   ],
   imports: [
     BrowserModule
